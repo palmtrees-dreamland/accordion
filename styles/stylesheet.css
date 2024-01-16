@@ -1,4 +1,26 @@
+body {
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    purple 25%,
+    pink 75%,
+    
+    );
+}
 
+main {
+  width: 400px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 20px 20px rgba(0, 0, 0, 75);
+  align-self: center;
+
+}
 
 
 footer {
